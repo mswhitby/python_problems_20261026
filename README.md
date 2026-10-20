@@ -52,20 +52,20 @@ Once you’ve finished your work:
 ## Coding Challenges
 
 | Problem                                                                                                   | File Name                  |  Points
-----------------------------------------------------------------------------------------------------------  | -------------------------- | ------------
-| 1.  [Name That Playlists](https://edabit.com/challenge/ccv2_ab646fdb9fa36ec3b1798459)                     | playlist_name.py           | 5          
-| 2.  [Buggy Code (Part 1)](https://edabit.com/challenge/CjXamaNRmKxwkmBxq)                                 | buggy_code.py              | 5
-| 3.  [Fix the Lowest Reading](https://edabit.com/challenge/ccv2_e9f32e603f5fba09ba634e12)                  | lowest_reading.py          | 5
-| 4.  [Return the Next Number from the Integer Passed](https://edabit.com/challenge/KjCS7occ9hfu5snpb)      | addition.py                | 5
-| 5.  [Player Two Has Joined](https://edabit.com/challenge/ccv2_8617851ec27b075db257a055)                   | join_message.py            | 5  
-| 5.  [Find the Perimeter of a Rectangle](Yx2a9B57vXRuPevGh)                                                | find_perimeter.py          | 5  
-| 5.  []()                   | join_message.py            | 5  
-| 5.  []()                   | join_message.py            | 5  
-| 5.  []()                   | join_message.py            | 5  
-| 5.  []()                   | join_message.py            | 5  
-| 6.  [Leave Paused Tasks Out of the Total](https://edabit.com/challenge/ccv2_fb00d03fcedbd717a7a5da66)     | total_minutes.py           | 10
-| 7.  [Apple: Which Devices Need Charging?](https://edabit.com/challenge/ccv2_a36ef91fc45c7651cee01c21)     | needs_charging.py          | 10
-| 8.  [Draw a Progress Bar](https://edabit.com/challenge/ccv2_8fcf12de124c9148b7915299)                     | progress_bar.py            | 10
-| 9.  [Google: Search Suggestions](https://edabit.com/challenge/ccv2_e0da6402dc358f713085b0c1)              | search_suggestions.py      | 10
-| 10. [Find the Missing Page](https://edabit.com/challenge/ccv2_0c54aa43576efbbaa2394880)                   | missing_page  .py          | 10
-|                                                                                                           | Total                      | 80
+---------------------------------------------------------------------------------------------------------  | -------------------------- | ------------
+| [Name That Playlists](https://edabit.com/challenge/ccv2_ab646fdb9fa36ec3b1798459)                        | playlist_name.py           | 5          
+| [Buggy Code (Part 1)](https://edabit.com/challenge/CjXamaNRmKxwkmBxq)                                    | buggy_code.py              | 5
+| [Fix the Lowest Reading](https://edabit.com/challenge/ccv2_e9f32e603f5fba09ba634e12)                     | lowest_reading.py          | 5
+| [Return the Next Number from the Integer Passed](https://edabit.com/challenge/KjCS7occ9hfu5snpb)         | addition.py                | 5
+| [Player Two Has Joined](https://edabit.com/challenge/ccv2_8617851ec27b075db257a055)                      | join_message.py            | 5  
+| [Find the Perimeter of a Rectangle](Yx2a9B57vXRuPevGh)                                                   | find_perimeter.py          | 5  
+| [Retry or Stop?](https://edabit.com/challenge/ccv2_5ca70b4e34d51e05556b506c?utm_source=chatgpt.com)      | should_retry.py            | 5  
+| []()                   | solution.py            | 5  
+| []()                   | solution.py            | 5  
+| []()                   | solution.py            | 5  
+| [Leave Paused Tasks Out of the Total](https://edabit.com/challenge/ccv2_fb00d03fcedbd717a7a5da66)        | total_minutes.py           | 10
+| [Apple: Which Devices Need Charging?](https://edabit.com/challenge/ccv2_a36ef91fc45c7651cee01c21)        | needs_charging.py          | 10
+| [Draw a Progress Bar](https://edabit.com/challenge/ccv2_8fcf12de124c9148b7915299)                        | progress_bar.py            | 10
+| [Google: Search Suggestions](https://edabit.com/challenge/ccv2_e0da6402dc358f713085b0c1)                 | search_suggestions.py      | 10
+| [Find the Missing Page](https://edabit.com/challenge/ccv2_0c54aa43576efbbaa2394880)                      | missing_page  .py          | 10
+|                                                                                                          | Total                      | 80
