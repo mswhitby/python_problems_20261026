@@ -52,7 +52,7 @@ Once you’ve finished your work:
 ## Coding Challenges
 
 | Problem                                                                                                   | File Name                  |  Points
-----------------------------------------------------------------------------------------------------------  | -------------------------- | ------------:
+----------------------------------------------------------------------------------------------------------  | -------------------------- | ------------
 | 1.  [Name That Playlists](https://edabit.com/challenge/ccv2_ab646fdb9fa36ec3b1798459)                     | playlist_name.py           | 5          
 | 2.  [Buggy Code (Part 1)](https://edabit.com/challenge/CjXamaNRmKxwkmBxq)                                 | buggy_code.py              | 5
 | 3.  [Fix the Lowest Reading](https://edabit.com/challenge/ccv2_e9f32e603f5fba09ba634e12)                  | lowest_reading.py          | 5
