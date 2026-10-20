@@ -52,8 +52,8 @@ Once you’ve finished your work:
 ## Coding Challenges
 
 | Problem                                                                                                  | File Name                  |  Points
-:--------------------------------------------------------------------------------------------------------: | -------------------------- | :------------
-| [Name That Playlists](https://edabit.com/challenge/ccv2_ab646fdb9fa36ec3b1798459)                        | [playlist_name.py(problems/playlist_name.py)           | 5          
+| -------------------------------------------------------------------------------------------------------- | -------------------------- | :------------:
+| [Name That Playlists](https://edabit.com/challenge/ccv2_ab646fdb9fa36ec3b1798459)                        | [playlist_name.py](problems/playlist_name.py)           | 5          
 | [Buggy Code (Part 1)](https://edabit.com/challenge/CjXamaNRmKxwkmBxq)                                    | buggy_code.py              | 5
 | [Fix the Lowest Reading](https://edabit.com/challenge/ccv2_e9f32e603f5fba09ba634e12)                     | lowest_reading.py          | 5
 | [Return the Next Number from the Integer Passed](https://edabit.com/challenge/KjCS7occ9hfu5snpb)         | addition.py                | 5
