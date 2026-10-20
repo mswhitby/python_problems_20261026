@@ -51,9 +51,9 @@ Once you’ve finished your work:
 
 ## Coding Challenges
 
- Problem                                                                              | File Name              |  Points
+| Problem                                                                              | File Name              |  Points
 -------------------------------------------------------------------------------------  | ---------------------- | ----------------------
- 1. [Name That Playlists](https://edabit.com/challenge/ccv2_ab646fdb9fa36ec3b1798459) | playlist_name.py       | 5          
+| 1. [Name That Playlists](https://edabit.com/challenge/ccv2_ab646fdb9fa36ec3b1798459) | playlist_name.py       | 5          
 2. []() - 
 3. []() - 
 4. []() - 
