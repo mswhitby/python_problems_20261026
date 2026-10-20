@@ -1,4 +1,4 @@
-# Python Coding Problems — October 19, 2026
+# Python Coding Problems — October 26, 2026
 
 **[View the Challenge Leaderboard](LEADERBOARD.md)**
 
@@ -34,7 +34,7 @@ Once you’ve finished your work:
 
 1. Open your forked repository.
 2. Click **Contribute → Open pull request** (or **Compare & pull request** if displayed).
-3. Confirm that the pull request is going from your repository to mswhitby/python_problems_20261019.
+3. Confirm that the pull request is going from your repository to mswhitby/python_problems_20261026.
 4. Make sure the base branch and compare branch are both main.
 5. Click **Create pull request**.
 
@@ -79,9 +79,5 @@ Once you’ve finished your work:
 | [Join with a Final Separator](https://edabit.com/challenge/ccv2_7a82584eae6baedd4bfaeaa2)                | [join_labels.py](problems/join_labels.py)                  | 25
 | []()                      | [xxxxx.py](problems/xxxxx.py)                | 25
 | []()                      | [xxxxx.py](problems/xxxxx.py)                | 25
-
-
-
-
-
+| ------------------------------------                                                                     | ------------                                               | ----
 |                                                                                                          | Total                                                      | 250
