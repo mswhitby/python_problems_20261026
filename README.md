@@ -63,7 +63,6 @@ Once you’ve finished your work:
 | 5.  []()                   | join_message.py            | 5  
 | 5.  []()                   | join_message.py            | 5  
 | 5.  []()                   | join_message.py            | 5  
-
 | 6.  [Leave Paused Tasks Out of the Total](https://edabit.com/challenge/ccv2_fb00d03fcedbd717a7a5da66)     | total_minutes.py           | 10
 | 7.  [Apple: Which Devices Need Charging?](https://edabit.com/challenge/ccv2_a36ef91fc45c7651cee01c21)     | needs_charging.py          | 10
 | 8.  [Draw a Progress Bar](https://edabit.com/challenge/ccv2_8fcf12de124c9148b7915299)                     | progress_bar.py            | 10
