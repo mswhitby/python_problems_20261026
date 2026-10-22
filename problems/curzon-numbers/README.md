@@ -10,7 +10,7 @@ In a research simulation, checkpoints have positive integer IDs. A checkpoint `n
 
 ## Parameters
 
-`start` and `end` are positive integers with `1 <= start <= end <= 200`. Both endpoints are included.
+- `start` and `end` are positive integers with `1 <= start <= end <= 200`. Both endpoints are included.
 
 ## Expected behavior
 
@@ -27,10 +27,46 @@ def solution(start, end):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution(1, 6)  # [1, 2, 5, 6]
-solution(7, 10)  # [9]
-solution(3, 4)  # []
+solution(1, 6)
+```
+
+**Output**
+
+```python
+[1, 2, 5, 6]
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution(7, 10)
+```
+
+**Output**
+
+```python
+[9]
+```
+
+### Example 3
+
+**Input**
+
+```python
+solution(3, 4)
+```
+
+**Output**
+
+```python
+[]
 ```
 
 Return the required value rather than printing it.

@@ -29,9 +29,32 @@ def solution(suggestions, typed):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution(['Open Settings', 'Run Tests', 'open Folder', 'Open File'], 'op')  # ['Open File', 'open Folder', 'Open Settings']
-solution(['Run', 'Reset'], 'save')  # []
+solution(['Open Settings', 'Run Tests', 'open Folder', 'Open File'], 'op')
+```
+
+**Output**
+
+```python
+['Open File', 'open Folder', 'Open Settings']
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution(['Run', 'Reset'], 'save')
+```
+
+**Output**
+
+```python
+[]
 ```
 
 Return the required value rather than printing it.

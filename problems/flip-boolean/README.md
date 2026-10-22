@@ -10,7 +10,7 @@ An app developer is testing the on/off switch for an accessibility setting. When
 
 ## Parameters
 
-`arg` is always a boolean: `True` (enabled) or `False` (disabled).
+- `arg` is always a boolean: `True` (enabled) or `False` (disabled).
 
 ## Expected behavior
 
@@ -27,9 +27,32 @@ def solution(arg):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution(False)  # True
-solution(True)  # False
+solution(False)
+```
+
+**Output**
+
+```python
+True
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution(True)
+```
+
+**Output**
+
+```python
+False
 ```
 
 Return the required value rather than printing it.

@@ -28,10 +28,46 @@ def solution(grid, start, target):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution([[0,0,1],[1,0,0],[0,0,0]], (0,0), (2,2))  # 4
-solution([[0,1],[1,0]], (0,0), (1,1))  # -1
-solution([[0]], (0,0), (0,0))  # 0
+solution([[0,0,1],[1,0,0],[0,0,0]], (0,0), (2,2))
+```
+
+**Output**
+
+```python
+4
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution([[0,1],[1,0]], (0,0), (1,1))
+```
+
+**Output**
+
+```python
+-1
+```
+
+### Example 3
+
+**Input**
+
+```python
+solution([[0]], (0,0), (0,0))
+```
+
+**Output**
+
+```python
+0
 ```
 
 Return the required value rather than printing it.

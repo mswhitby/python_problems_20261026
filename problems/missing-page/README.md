@@ -10,7 +10,7 @@ A school gives visitors badges numbered consecutively from 1. During inventory, 
 
 ## Parameters
 
-`total` is a positive integer for the final badge number. `badges` contains each number from 1 through `total` exactly once except for one missing number. The numbers may appear in any order.
+- `total` is a positive integer for the final badge number. `badges` contains each number from 1 through `total` exactly once except for one missing number. The numbers may appear in any order.
 
 ## Expected behavior
 
@@ -27,10 +27,46 @@ def solution(badges, total):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution([4, 2, 1, 6, 3], 6)  # 5
-solution([3, 2], 3)  # 1
-solution([], 1)  # 1
+solution([4, 2, 1, 6, 3], 6)
+```
+
+**Output**
+
+```python
+5
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution([3, 2], 3)
+```
+
+**Output**
+
+```python
+1
+```
+
+### Example 3
+
+**Input**
+
+```python
+solution([], 1)
+```
+
+**Output**
+
+```python
+1
 ```
 
 Return the required value rather than printing it.

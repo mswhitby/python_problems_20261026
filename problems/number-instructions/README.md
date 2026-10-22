@@ -10,7 +10,7 @@ A digital lab guide stores safety instructions as plain text. To make the guide 
 
 ## Parameters
 
-`steps` is a list of strings in the order they should be completed.
+- `steps` is a list of strings in the order they should be completed.
 
 ## Expected behavior
 
@@ -27,9 +27,32 @@ def solution(steps):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution(['Charge drone', 'Connect controller'])  # ['Step 1: Charge drone', 'Step 2: Connect controller']
-solution([])  # []
+solution(['Charge drone', 'Connect controller'])
+```
+
+**Output**
+
+```python
+['Step 1: Charge drone', 'Step 2: Connect controller']
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution([])
+```
+
+**Output**
+
+```python
+[]
 ```
 
 Return the required value rather than printing it.

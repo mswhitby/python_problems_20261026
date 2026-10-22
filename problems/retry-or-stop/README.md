@@ -29,11 +29,60 @@ def solution(passed, attempt, limit):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution(False, 2, 3)  # True
-solution(False, 3, 3)  # True
-solution(False, 4, 3)  # False
-solution(True, 2, 3)  # False
+solution(False, 2, 3)
+```
+
+**Output**
+
+```python
+True
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution(False, 3, 3)
+```
+
+**Output**
+
+```python
+True
+```
+
+### Example 3
+
+**Input**
+
+```python
+solution(False, 4, 3)
+```
+
+**Output**
+
+```python
+False
+```
+
+### Example 4
+
+**Input**
+
+```python
+solution(True, 2, 3)
+```
+
+**Output**
+
+```python
+False
 ```
 
 Return the required value rather than printing it.

@@ -28,10 +28,46 @@ def solution(labels, separator):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution(['  Alpha  ', '', 'beta', 'ALPHA', 'Gamma'], 'and')  # 'Alpha, beta, and Gamma'
-solution(['oak', 'pine'], 'or')  # 'oak or pine'
-solution(['  '], 'and')  # ''
+solution(['  Alpha  ', '', 'beta', 'ALPHA', 'Gamma'], 'and')
+```
+
+**Output**
+
+```python
+'Alpha, beta, and Gamma'
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution(['oak', 'pine'], 'or')
+```
+
+**Output**
+
+```python
+'oak or pine'
+```
+
+### Example 3
+
+**Input**
+
+```python
+solution(['  '], 'and')
+```
+
+**Output**
+
+```python
+''
 ```
 
 Return the required value rather than printing it.
