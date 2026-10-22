@@ -1,83 +1,51 @@
-# Python Coding Problems — October 26, 2026
+# Python Coding Challenges — October 26, 2026
 
 **[View the Challenge Leaderboard](LEADERBOARD.md)**
 
-## Submission Instructions
+Choose the challenges you want to solve. You can earn points from any difficulty level; more than 100 points are available.
 
-Complete the Python challenges linked below. Each challenge has a corresponding .py file already created in the [problems](/problems/) repository.
+## Submission instructions
 
-**Do not create new Python files.** Write your solutions in the existing files.
+1. Fork this repository to your GitHub account.
+2. Choose a challenge below and open its folder to read the instructions.
+3. In **your fork**, edit that folder's `solution.py` file.
+4. Write code inside the function named `solution`. **Do not rename it or change its parameters.**
+5. Commit your work and open a pull request from your fork's `main` branch into this repository's `main` branch.
+6. Keep your pull request open; do not merge it. To correct an answer, commit another change to the same branch.
 
-### Step 1: Fork the Repository
+Return the requested value from each function unless a challenge says otherwise.
 
-1. Sign in to your GitHub account.
-2. Click **Fork** in the upper-right corner of this repository.
-3. Select your GitHub account as the owner.
-4. Click **Create fork**.
+## Coding challenges
 
-You now have your own copy of the assignment in your GitHub account.
+| Challenge | Points |
+|---|---:|
+| **Very Easy** | **5 each** |
+| [Name That Playlist](problems/playlist-name/) | 5 |
+| [Buggy Code: Cube It](problems/buggy-code/) | 5 |
+| [Fix the Lowest Reading](problems/lowest-reading/) | 5 |
+| [Return the Next Number](problems/next-number/) | 5 |
+| [Player Two Has Joined](problems/player-two-joined/) | 5 |
+| [Rectangle Perimeter](problems/rectangle-perimeter/) | 5 |
+| [Retry or Stop?](problems/retry-or-stop/) | 5 |
+| [Will the Next File Fit?](problems/file-fits/) | 5 |
+| [Maximum Edge of a Triangle](problems/triangle-edge/) | 5 |
+| [Make It a Hashtag](problems/make-hashtag/) | 5 |
+| **Easy** | **10 each** |
+| [Leave Paused Tasks Out of the Total](problems/total-minutes/) | 10 |
+| [Which Devices Need Charging?](problems/devices-charging/) | 10 |
+| [Draw a Progress Bar](problems/progress-bar/) | 10 |
+| [Search Suggestions](problems/search-suggestions/) | 10 |
+| [Find the Missing Page](problems/missing-page/) | 10 |
+| [Flip the Boolean](problems/flip-boolean/) | 10 |
+| [Number the Instructions](problems/number-instructions/) | 10 |
+| *3 more challenges coming soon* | — |
+| **Hard** | **25 each** |
+| [Curzon Numbers](problems/curzon-numbers/) | 25 |
+| [Join with a Final Separator](problems/join-final-separator/) | 25 |
+| *2 more challenges coming soon* | — |
 
-### Step 2: Complete the Challenges
+**19 challenges currently available · 170 possible points.** Additional challenges will be added before the assignment begins.
 
-1. Click a challenge link below to read the problem.
-2. Open the corresponding .py file **in your fork**.
-3. Click the pencil icon to edit the file.
-4. Write your Python solution.
-5. Click **Commit changes** to save your work.
-6. Repeat for the remaining problems.
-
-Make sure your solutions work before submitting.
-
-### Step 3: Submit a Pull Request
-
-Once you’ve finished your work:
-
-1. Open your forked repository.
-2. Click **Contribute → Open pull request** (or **Compare & pull request** if displayed).
-3. Confirm that the pull request is going from your repository to mswhitby/python_problems_20261026.
-4. Make sure the base branch and compare branch are both main.
-5. Click **Create pull request**.
-
-<!--  Your pull request is your assignment submission. **Do not merge or close it**. -->
-
-<!-- If you need to make corrections, edit and commit the files in your fork. Your pull request will update automatically. -->
-
----
-## Recources
+## Resources
 
 - [Online Python Compiler and Debugger](https://www.onlinegdb.com/online_python_interpreter)
-
-----
-
-## Coding Challenges
-
-| Problem                                                                                                  | File Name                                                  |  Points
-| -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | :------------:
-| [Name That Playlists](https://edabit.com/challenge/ccv2_ab646fdb9fa36ec3b1798459)                        | [playlist_name.py](problems/playlist_name.py)              | 5          
-| [Buggy Code (Part 1)](https://edabit.com/challenge/CjXamaNRmKxwkmBxq)                                    | [buggy_code.py](problems/buggy_code.py)                    | 5
-| [Fix the Lowest Reading](https://edabit.com/challenge/ccv2_e9f32e603f5fba09ba634e12)                     | [lowest_reading.py](problems/lowest_reading.py)            | 5
-| [Return the Next Number from the Integer Passed](https://edabit.com/challenge/KjCS7occ9hfu5snpb)         | [addition.py](problems/addition.py)                        | 5
-| [Player Two Has Joined](https://edabit.com/challenge/ccv2_8617851ec27b075db257a055)                      | [join_message.py](problems/join_message.py)                | 5  
-| [Find the Perimeter of a Rectangle](Yx2a9B57vXRuPevGh)                                                   | [find_perimeter.py](problems/find_perimeter.py)            | 5  
-| [Retry or Stop?](https://edabit.com/challenge/ccv2_5ca70b4e34d51e05556b506c?utm_source=chatgpt.com)      | [should_retry.py](problems/should_retry.py)                | 5  
-| [Will the Next File Fit?](https://edabit.com/challenge/ccv2_f16bfe999fecea3f0eee3809)                    | [file_fits.py](problems/file_fits.py)                      | 5  
-| [Maximum Edge of a Triangle](https://edabit.com/challenge/Zerwo2AENbvRZTe83)                             | [next_edge.py](problems/next_edge.py)                      | 5  
-| [Make It a Hashtag](https://edabit.com/challenge/ccv2_41e17a6244941e8c0e9d6efb)                          | [make_hashtag.py](problems/make_hashtag.py)                | 5  
-| ------------------------------------                                                                     | ------------                                               | ----
-| [Leave Paused Tasks Out of the Total](https://edabit.com/challenge/ccv2_fb00d03fcedbd717a7a5da66)        | [total_minutes.py](problems/total_minutes.py)              | 10
-| [Apple: Which Devices Need Charging?](https://edabit.com/challenge/ccv2_a36ef91fc45c7651cee01c21)        | [needs_charging.py](problems/needs_charging.py)            | 10
-| [Draw a Progress Bar](https://edabit.com/challenge/ccv2_8fcf12de124c9148b7915299)                        | [progress_bar.py](problems/progress_bar.py)                | 10
-| [Google: Search Suggestions](https://edabit.com/challenge/ccv2_e0da6402dc358f713085b0c1)                 | [search_suggestions.py](problems/search_suggestions.py)    | 10
-| [Find the Missing Page](https://edabit.com/challenge/ccv2_0c54aa43576efbbaa2394880)                      | [missing_page.py](problems/missing_page.py)                | 10
-| [Flip the Boolean](https://edabit.com/challenge/NLY7zGMYocsTbeS6n)                                       | [reverse.py](problems/reverse.py)                          | 10
-| [Number the Instructions](https://edabit.com/challenge/ccv2_fd58be8b71a61b7aaf420a56)                    | [number_instructions.py](problems/number_instructionsx.py) | 10
-| []()                      | [xxxxx.py](problems/xxxxx.py)                | 10
-| []()                      | [xxxxx.py](problems/xxxxx.py)                | 10
-| []()                      | [xxxxx.py](problems/xxxxx.py)                | 10
-| ------------------------------------                                                                     | ------------                                               | ----
-| [Curzon Numbers](https://edabit.com/challenge/HYjQKDXFfeppcWmLX)                                         | [is_curzon.py](problems/is_curzon.py)                      | 25
-| [Join with a Final Separator](https://edabit.com/challenge/ccv2_7a82584eae6baedd4bfaeaa2)                | [join_labels.py](problems/join_labels.py)                  | 25
-| []()                      | [xxxxx.py](problems/xxxxx.py)                | 25
-| []()                      | [xxxxx.py](problems/xxxxx.py)                | 25
-| ------------------------------------                                                                     | ------------                                               | ----
-|                                                                                                          | Total                                                      | 250

@@ -1,19 +1,13 @@
 # Python Coding Challenge Leaderboard
 
-**Week of October 25, 2026**
+**Week of October 26, 2026**
 
-*Last updated: October 20, 2026 at 13:39 CT*
+Complete challenges to earn points. Higher-difficulty challenges are worth more; points are not capped.
 
-Each problem is worth 10 points, for a possible total of **100 points**.
-Unattempted problems contribute 0 points. The latest graded score for
-each problem is used, even across multiple pull requests.
-
-| Rank | GitHub username | Solved | Attempted | Total points |
+| Rank | GitHub username | Solved | Attempted | Points |
 |---:|---|---:|---:|---:|
 
-- **Solved** = earned all 10 points for that problem.
-- **Attempted** = a problem with at least one recorded grade.
+- **Solved:** challenges earning full points.
+- **Attempted:** challenges with at least one graded submission.
 
-This is an informal coding-challenge leaderboard, not an official gradebook.
-
-
+This is a coding competition leaderboard, not a gradebook.
