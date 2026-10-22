@@ -36,7 +36,7 @@ for number in range(3, 7):
 ## 2. Arithmetic and divisibility
 
 | Operator | Meaning | Example |
-|---|---|
+|---|---|---|
 | `+` | Add | `4 + 3` is `7` |
 | `**` | Raise to a power | `2 ** 3` is `8` |
 | `%` | Remainder after division | `14 % 4` is `2` |
