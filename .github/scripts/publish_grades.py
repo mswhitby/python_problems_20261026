@@ -141,7 +141,7 @@ def render_leaderboard(original,users):
         table.append(f"| {position} | `{name}` | {solved} | {attempted} | {points:.2f} |")
     output="".join(lines[:start])+"\n".join(table)+"\n"+"".join(lines[end:])
     stamp=datetime.now(ZoneInfo("America/Chicago")).strftime("%B %d, %Y at %H:%M CT")
-    return re.sub(r"(?m)^\\*Last updated:[^\n]*\\*$",f"*Last updated: {stamp}*",output,count=1)
+    return re.sub(r"(?m)^\*Last updated:[^\n]*\*$",f"*Last updated: {stamp}*",output,count=1)
 
 def save_leaderboard(users):
     current=api("GET","/contents/LEADERBOARD.md?ref=main")
