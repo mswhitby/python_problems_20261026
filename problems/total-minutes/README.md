@@ -1,27 +1,39 @@
-# Leave Paused Tasks Out of the Total
+# Focus Timer Debugger
 
 **10 points**
 
-## Challenge
+**CS concepts:** Dictionaries, loops, optional parameters, debugging
 
-Fix the starter code for a task timer. `tasks` is a list of dictionaries containing `minutes` (nonnegative integer) and `paused` (boolean). Include all minutes when `include_paused` is `True`, the default; exclude paused tasks when it is `False`. An empty list produces 0.
+## Scenario
+
+A study timer records time spent on different assignments. Its current code adds every task's minutes even when a student wants to see only active work. Repair the logic so the optional setting has the intended effect.
+
+## Parameters
+
+- `tasks`: a list of dictionaries containing `minutes` (a nonnegative integer) and `paused` (a boolean).
+- `include_paused`: an optional boolean parameter. Its default value is `True`.
+
+## Expected behavior
+
+If `include_paused` is `True`, include every task. If it is `False`, skip tasks marked `paused=True`. Return the total number of minutes as an integer. An empty task list returns 0.
 
 ## Your task
 
-Open [`solution.py`](solution.py). Implement the existing function without renaming `solution` or changing the specified parameters.
+Open [`solution.py`](solution.py). Complete the function named `solution` without changing its name or parameters.
 
 ```python
 def solution(tasks, include_paused=True):
-    # Your code goes here.
+    # Write your code here.
 ```
 
 ## Examples
 
 ```python
-solution([{'minutes': 12, 'paused': False}, {'minutes': 8, 'paused': True}], False)  # 12
-solution([{'minutes': 12, 'paused': False}, {'minutes': 8, 'paused': True}])  # 20
+solution([{'minutes': 14, 'paused': False}, {'minutes': 7, 'paused': True}], False)  # 14
+solution([{'minutes': 14, 'paused': False}, {'minutes': 7, 'paused': True}])  # 21
+solution([], False)  # 0
 ```
 
-**Debugging challenge:** the starter code contains an error. Fix it while keeping the function signature.
+**Debugging challenge:** the starter code has an intentional mistake. Find and repair it.
 
-Return the requested value rather than printing it.
+Return the required value rather than printing it.

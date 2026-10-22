@@ -1,25 +1,37 @@
-# Search Suggestions
+# Command Palette Matcher
 
 **10 points**
 
-## Challenge
+**CS concepts:** Prefix matching, sorting, slicing, case-insensitive comparisons
 
-From a list of suggestion strings, return at most the first three that begin with `typed`. Matching is case-insensitive, but retain the original wording and order. An empty `typed` matches every entry. Return an empty list for no matches.
+## Scenario
+
+A programming editor offers a command palette to help users find actions such as opening a file or running tests. Commands matching the letters typed should appear in predictable alphabetical order.
+
+## Parameters
+
+- `suggestions`: a list of command strings.
+- `typed`: a string, which may be empty.
+A command matches if its text begins with `typed`, ignoring uppercase and lowercase differences.
+
+## Expected behavior
+
+Find all matches, sort them alphabetically ignoring case, and return the first **four**. Preserve each matching command's original spelling and capitalization. When two entries are equal ignoring case, preserve their original order. An empty search matches all commands. Return an empty list if there are no matches.
 
 ## Your task
 
-Open [`solution.py`](solution.py). Implement the existing function without renaming `solution` or changing the specified parameters.
+Open [`solution.py`](solution.py). Complete the function named `solution` without changing its name or parameters.
 
 ```python
 def solution(suggestions, typed):
-    # Your code goes here.
+    # Write your code here.
 ```
 
 ## Examples
 
 ```python
-solution(['Python', 'pyramid', 'Java', 'pycharm'], 'py')  # ['Python', 'pyramid', 'pycharm']
-solution(['Cats', 'Dogs'], 'z')  # []
+solution(['Open Settings', 'Run Tests', 'open Folder', 'Open File'], 'op')  # ['Open File', 'open Folder', 'Open Settings']
+solution(['Run', 'Reset'], 'save')  # []
 ```
 
-Return the requested value rather than printing it.
+Return the required value rather than printing it.

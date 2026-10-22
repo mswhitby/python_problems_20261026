@@ -1,26 +1,37 @@
-# Join with a Final Separator
+# Screen Reader Announcement Composer
 
 **25 points**
 
-## Challenge
+**CS concepts:** String normalization, deduplication, preserving order, edge cases
 
-Create a human-readable phrase from a list of labels. Separate earlier items with `, `, and place the joining word `separator` before the last. With two labels, use only the joining word. Return a single label unchanged, or an empty string if there are no labels.
+## Scenario
+
+An accessibility app reads selected items aloud. Imported labels may contain leading spaces, empty entries, or the same label repeated with different capitalization. Prepare a clean announcement that sounds natural.
+
+## Parameters
+
+- `labels`: a list of strings, possibly empty or containing surrounding whitespace.
+- `separator`: a nonempty single word such as `and` or `or`.
+
+## Expected behavior
+
+Process labels in their original order. Strip spaces at both ends of each label, discard empty labels, and remove duplicates **ignoring case**, keeping the first spelling and its place in the list. If no labels remain, return `''`; with one, return that label; with two, join them with a space, the separator, and another space. With three or more, join earlier labels using `, ` and place `, separator ` before the last (Oxford comma).
 
 ## Your task
 
-Open [`solution.py`](solution.py). Implement the existing function without renaming `solution` or changing the specified parameters.
+Open [`solution.py`](solution.py). Complete the function named `solution` without changing its name or parameters.
 
 ```python
 def solution(labels, separator):
-    # Your code goes here.
+    # Write your code here.
 ```
 
 ## Examples
 
 ```python
-solution(['red', 'blue', 'green'], 'and')  # 'red, blue and green'
-solution(['tea', 'coffee'], 'or')  # 'tea or coffee'
-solution([], 'and')  # ''
+solution(['  Alpha  ', '', 'beta', 'ALPHA', 'Gamma'], 'and')  # 'Alpha, beta, and Gamma'
+solution(['oak', 'pine'], 'or')  # 'oak or pine'
+solution(['  '], 'and')  # ''
 ```
 
-Return the requested value rather than printing it.
+Return the required value rather than printing it.

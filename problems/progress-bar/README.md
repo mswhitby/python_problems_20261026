@@ -1,26 +1,36 @@
-# Draw a Progress Bar
+# Installer Download Meter
 
 **10 points**
 
-## Challenge
+**CS concepts:** String repetition, arithmetic, exact output
 
-Given an integer percentage from 0 to 100 in increments of 10, return a 10-character text bar inside square brackets. Use `#` for each completed 10% and `-` for each unfinished 10%, then a space and the percent value followed by `%`.
+## Scenario
+
+A software installer shows its progress in a text-only terminal. The meter has ten sections, so each filled section represents another 10% completed.
+
+## Parameters
+
+`percent` is an integer from 0 to 100, inclusive, always in increments of 10.
+
+## Expected behavior
+
+Create a ten-character meter with `#` for each finished section and `.` for each remaining section. Surround the meter with `|` characters. Add a single space, the percentage, and `%`. Return the entire string.
 
 ## Your task
 
-Open [`solution.py`](solution.py). Implement the existing function without renaming `solution` or changing the specified parameters.
+Open [`solution.py`](solution.py). Complete the function named `solution` without changing its name or parameters.
 
 ```python
 def solution(percent):
-    # Your code goes here.
+    # Write your code here.
 ```
 
 ## Examples
 
 ```python
-solution(0)  # '[----------] 0%'
-solution(50)  # '[#####-----] 50%'
-solution(100)  # '[##########] 100%'
+solution(30)  # '|###.......| 30%'
+solution(0)  # '|..........| 0%'
+solution(100)  # '|##########| 100%'
 ```
 
-Return the requested value rather than printing it.
+Return the required value rather than printing it.
