@@ -1,3 +1,2 @@
 def solution(word):
-    # Write your code here.
-    pass
+    return "#" + "".join(part.capitalize() for part in word.split())
