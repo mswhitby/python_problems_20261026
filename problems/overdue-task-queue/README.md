@@ -49,7 +49,7 @@ solution(
 **Output**
 
 ```python
-'Storyboard']
+['Storyboard']
 ```
 
 ### Example 2
@@ -63,7 +63,7 @@ solution([], 12)
 **Output**
 
 ```python
-]
+[]
 ```
 
 Return the required value rather than printing it.

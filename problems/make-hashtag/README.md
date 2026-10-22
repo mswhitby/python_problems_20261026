@@ -38,7 +38,7 @@ solution('  Game   Design  ')
 **Output**
 
 ```python
-#GameDesign'
+'#GameDesign'
 ```
 
 ### Example 2
@@ -52,7 +52,7 @@ solution('Robotics')
 **Output**
 
 ```python
-#Robotics'
+'#Robotics'
 ```
 
 Return the required value rather than printing it.

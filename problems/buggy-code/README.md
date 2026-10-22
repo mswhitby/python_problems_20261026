@@ -38,7 +38,7 @@ solution(4)
 **Output**
 
 ```python
-4
+64
 ```
 
 ### Example 2
@@ -52,7 +52,7 @@ solution(0)
 **Output**
 
 ```python
-
+0
 ```
 
 **Debugging challenge:** the starter code has an intentional error. Find and fix it.

@@ -48,7 +48,7 @@ solution(
 **Output**
 
 ```python
-'ava': 8, 'leo': 5}
+{'ava': 8, 'leo': 5}
 ```
 
 ### Example 2
@@ -62,7 +62,7 @@ solution([{'user':'sky','action':'login','minute':2}])
 **Output**
 
 ```python
-}
+{}
 ```
 
 

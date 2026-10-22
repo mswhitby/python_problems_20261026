@@ -44,7 +44,7 @@ solution(['CLICK', 'view', 'Click', 'submit'])
 **Output**
 
 ```python
-'click': 2, 'view': 1, 'submit': 1}
+{'click': 2, 'view': 1, 'submit': 1}
 ```
 
 ### Example 2
@@ -58,7 +58,7 @@ solution([])
 **Output**
 
 ```python
-'click': 0, 'view': 0, 'submit': 0}
+{'click': 0, 'view': 0, 'submit': 0}
 ```
 
 Return the required value rather than printing it.

@@ -42,7 +42,7 @@ solution([{'minutes': 14, 'paused': False}, {'minutes': 7, 'paused': True}], Fal
 **Output**
 
 ```python
-4
+14
 ```
 
 ### Example 2
@@ -56,7 +56,7 @@ solution([{'minutes': 14, 'paused': False}, {'minutes': 7, 'paused': True}])
 **Output**
 
 ```python
-1
+21
 ```
 
 ### Example 3
@@ -70,7 +70,7 @@ solution([], False)
 **Output**
 
 ```python
-
+0
 ```
 
 **Debugging challenge:** the starter code has an intentional mistake. Find and repair it.
