@@ -30,44 +30,40 @@ def solution(events):
 
 ## Examples
 
-```python
-solution([{'user':'ava','action':'login','minute':3},{'user':'leo','action':'login','minute':4},{'user':'leo','action':'logout','minute':9},{'user':'ava','action':'logout','minute':11},{'user':'ava','action':'login','minute':12},{'user':'ava','action':'logout','minute':17}])  # {'ava': 13, 'leo': 5}
-solution([{'user':'sky','action':'login','minute':2}])  # {}
-```
+### Example 1
 
-### Input
+**Input**
 
 ```python
-[
-    {
-        'user':'ava',
-        'action':'login',
-        'minute':3
-    },
-    {
-        'user':'leo',
-        'action':'login',
-        'minute':4
-    },
-    {
-        'user':'leo',
-        'action':'logout',
-        'minute':9
-    },
-    {
-        'user':'ava',
-        'action':'logout',
-        'minute':11
-    }
-]
+solution(
+    [
+        {'user':'ava','action':'login','minute':3},
+        {'user':'leo','action':'login','minute':4},
+        {'user':'leo','action':'logout','minute':9},
+        {'user':'ava','action':'logout','minute':11}
+    ]
+)
 ```
-### Output
+
+**Output**
 
 ```python
-{
-    'ava': 13,
-    'leo': 5
-}
+{'ava': 8, 'leo': 5}
 ```
+
+### Example 2
+
+**Input**
+
+```python
+solution([{'user':'sky','action':'login','minute':2}])
+```
+
+**Output**
+
+```python
+{}
+```
+
 
 Return the required value rather than printing it.

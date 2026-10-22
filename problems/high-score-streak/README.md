@@ -10,7 +10,8 @@ A game awards bonus points for consecutive rounds that meet a score target. A ro
 
 ## Parameters
 
-`scores` is a list of nonnegative integer scores in chronological order. `target` is a nonnegative integer.
+- `scores`: a list of nonnegative integers, in chronological order.
+- `target`: a nonnegative integer representing the minimum score required for a round to count.
 
 ## Expected behavior
 
@@ -27,9 +28,32 @@ def solution(scores, target):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution([12, 20, 18, 7, 21, 21, 21], 18)  # 3
-solution([2, 3, 4], 10)  # 0
+solution([12, 20, 18, 7, 21, 21, 21], 18)
+```
+
+**Output**
+
+```python
+3
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution([2, 3, 4], 10)
+```
+
+**Output**
+
+```python
+0
 ```
 
 Return the required value rather than printing it.

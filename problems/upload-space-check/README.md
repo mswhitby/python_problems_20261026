@@ -1,0 +1,62 @@
+# Upload Space Gatekeeper
+
+**5 points**
+
+**CS concepts:** comparison operators; arithmetic; boundary values
+
+## Scenario
+
+A student is saving a project backup to a storage drive. Before transferring the file, the application checks available space to avoid a failed upload.
+
+## Parameters
+
+- `capacity`: a nonnegative integer for the drive's total space in megabytes.
+- `used`: a nonnegative integer for space already occupied in megabytes.
+- `size`: a nonnegative integer for the new file size in megabytes.
+
+`used` does not exceed `capacity`.
+
+## Expected behavior
+
+Return `True` if the file fits without exceeding the drive's capacity, or `False` otherwise. Filling the last available megabyte is allowed.
+
+## Your task
+
+Edit [`solution.py`](solution.py). Keep the function name `solution` and its parameters unchanged.
+
+```python
+def solution(capacity, used, size):
+    # Write your code here.
+```
+
+## Examples
+
+### Example 1
+
+**Input**
+
+```python
+solution(256, 240, 16)
+```
+
+**Output**
+
+```python
+True
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution(256, 240, 20)
+```
+
+**Output**
+
+```python
+False
+```
+
+Return the required value rather than printing it.

@@ -2,7 +2,7 @@
 
 **[View the Challenge Leaderboard](LEADERBOARD.md)**
 
-Pick challenges from any difficulty level. There are **250 possible points** across 24 challenges, and you may earn more than 100 points.
+Pick challenges from any difficulty level. There are **255 possible points** across 24 challenges, and you may earn more than 100 points.
 
 ## Submission instructions
 
@@ -21,34 +21,34 @@ Your leaderboard points reflect coding-challenge progress, not a classroom grade
 | Challenge | Points |
 |---|---:|
 | **Very Easy** | **5 each** |
-| [Mood-to-Music Label](problems/playlist-name/) | 5 |
-| [3D Object Volume Bug](problems/buggy-code/) | 5 |
-| [Thermostat Sensor Debugger](problems/lowest-reading/) | 5 |
-| [Ticket Queue Counter](problems/next-number/) | 5 |
-| [Co-op Lobby Notification](problems/player-two-joined/) | 5 |
-| [Fence Material Estimator](problems/rectangle-perimeter/) | 5 |
-| [Bot Spammer](problems/retry-or-stop/) | 5 |
-| [Upload Space Gatekeeper](problems/file-fits/) | 5 |
-| [Triangle Frame Safety Check](problems/triangle-edge/) | 5 |
-| [Classroom Topic Tag](problems/make-hashtag/) | 5 |
+| [Mood-to-Music Label](problems/mood-music-label/) | 5 |
+| [3D Object Volume Bug](problems/cube-volume-debugger/) | 5 |
+| [Thermostat Sensor Debugger](problems/thermostat-sensor-debugger/) | 5 |
+| [Ticket Queue Counter](problems/ticket-queue-counter/) | 5 |
+| [Co-op Lobby Notification](problems/co-op-lobby-notification/) | 5 |
+| [Fence Material Estimator](problems/fence-material-estimator/) | 5 |
+| [Bot Spammer](problems/bot-spammer/) | 5 |
+| [Upload Space Gatekeeper](problems/upload-space-check/) | 5 |
+| [Triangle Frame Safety Check](problems/triangle-frame-check/) | 5 |
 | **Easy** | **10 each** |
-| [Focus Timer Debugger](problems/total-minutes/) | 10 |
-| [Classroom Charging Queue](problems/devices-charging/) | 10 |
-| [Installer Download Meter](problems/progress-bar/) | 10 |
-| [Command Palette Matcher](problems/search-suggestions/) | 10 |
-| [Missing Library Badge](problems/missing-page/) | 10 |
-| [Feature Switch Inverter](problems/flip-boolean/) | 10 |
-| [Lab Procedure Formatter](problems/number-instructions/) | 10 |
-| [Assignment Deadline Queue](problems/overdue-task-queue/) | 10 |
+| [Classroom Topic Tag](problems/classroom-topic-tag/) | 10 |
+| [Focus Timer Debugger](problems/focus-timer-debugger/) | 10 |
+| [Classroom Charging Queue](problems/classroom-charging-queue/) | 10 |
+| [Installer Download Meter](problems/installer-download-meter/) | 10 |
+| [Command Palette Matcher](problems/command-palette-matcher/) | 10 |
+| [Missing Library Badge](problems/missing-library-badge/) | 10 |
+| [Feature Switch Inverter](problems/feature-switch-inverter/) | 10 |
+| [Lab Procedure Formatter](problems/lab-procedure-formatter/) | 10 |
+| [Assignment Deadline Queue](problems/assignment-deadline-queue/) | 10 |
 | [High Score Streak](problems/high-score-streak/) | 10 |
-| [App Event Type Tally](problems/event-type-tally/) | 10 |
+| [App Event Type Tally](problems/app-event-type-tally/) | 10 |
 | **Hard** | **25 each** |
-| [Beacon Checkpoint Scanner](problems/curzon-numbers/) | 25 |
-| [Screen Reader Announcement Composer](problems/join-final-separator/) | 25 |
+| [Beacon Checkpoint Scanner](problems/beacon-checkpoint-scanner/) | 25 |
+| [Screen Reader Announcement Composer](problems/screen-reader-announcement/) | 25 |
 | [Robot Maze Navigator](problems/robot-maze-navigator/) | 25 |
 | [Login Session Audit](problems/login-session-audit/) | 25 |
 
-**24 challenges · 250 possible points**
+**24 challenges · 255 possible points**
 
 ## Resources
 
