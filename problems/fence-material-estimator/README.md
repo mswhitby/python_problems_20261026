@@ -10,7 +10,10 @@ A gardening club wants to install edging around a rectangular bed. Before buying
 
 ## Parameters
 
-- `length` and `width` are positive integers measured in the same unit.
+- `length`: a positive integer representing the garden's length.
+- `width`: a positive integer representing its width.
+
+Both measurements use the same unit.
 
 ## Expected behavior
 

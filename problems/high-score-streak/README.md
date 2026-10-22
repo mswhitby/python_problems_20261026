@@ -10,7 +10,8 @@ A game awards bonus points for consecutive rounds that meet a score target. A ro
 
 ## Parameters
 
-- `scores` is a list of nonnegative integer scores in chronological order. `target` is a nonnegative integer.
+- `scores`: a list of nonnegative integers, in chronological order.
+- `target`: a nonnegative integer representing the minimum score required for a round to count.
 
 ## Expected behavior
 

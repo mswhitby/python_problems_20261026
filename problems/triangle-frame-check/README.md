@@ -10,7 +10,8 @@ A robotics team is building a triangular brace with two fixed bars. They need to
 
 ## Parameters
 
-- `side1` and `side2` are positive integers measured in centimeters.
+- `side1`: a positive integer for the first bar's length in centimeters.
+- `side2`: a positive integer for the second bar's length in centimeters.
 
 ## Expected behavior
 

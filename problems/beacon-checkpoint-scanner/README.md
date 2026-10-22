@@ -10,7 +10,10 @@ In a research simulation, checkpoints have positive integer IDs. A checkpoint `n
 
 ## Parameters
 
-- `start` and `end` are positive integers with `1 <= start <= end <= 200`. Both endpoints are included.
+- `start`: the first positive integer checkpoint ID to examine.
+- `end`: the last positive integer checkpoint ID to examine.
+
+Both endpoints are included, and `1 <= start <= end <= 200`.
 
 ## Expected behavior
 

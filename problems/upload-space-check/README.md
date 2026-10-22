@@ -10,7 +10,11 @@ A student is saving a project backup to a storage drive. Before transferring the
 
 ## Parameters
 
-- `capacity`, `used`, and `size` are nonnegative integers measured in megabytes. `used` never exceeds `capacity`.
+- `capacity`: a nonnegative integer for the drive's total space in megabytes.
+- `used`: a nonnegative integer for space already occupied in megabytes.
+- `size`: a nonnegative integer for the new file size in megabytes.
+
+`used` does not exceed `capacity`.
 
 ## Expected behavior
 

@@ -10,7 +10,10 @@ A school gives visitors badges numbered consecutively from 1. During inventory, 
 
 ## Parameters
 
-- `total` is a positive integer for the final badge number. `badges` contains each number from 1 through `total` exactly once except for one missing number. The numbers may appear in any order.
+- `badges`: a list containing each badge number except one, in any order and without duplicates.
+- `total`: a positive integer representing the largest badge number.
+
+Badge numbers run from 1 through `total`.
 
 ## Expected behavior
 

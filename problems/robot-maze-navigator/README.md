@@ -10,8 +10,9 @@ A classroom robot moves across a grid with obstacles. To conserve battery power,
 
 ## Parameters
 
-- `grid`: a nonempty rectangular list of lists containing `0` (open floor) and `1` (wall), with at most 12 rows and 12 columns.
-- `start` and `target`: `(row, column)` tuples referring to valid open cells in the grid.
+- `grid`: a nonempty rectangular list of lists containing `0` (open) or `1` (wall). The grid has at most 12 rows and 12 columns.
+- `start`: a `(row, column)` tuple identifying a valid open starting cell.
+- `target`: a `(row, column)` tuple identifying a valid open destination cell.
 
 ## Expected behavior
 
