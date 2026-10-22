@@ -15,7 +15,11 @@ An app stores a stream of login and logout events. Multiple people can be logged
 - `action` (`'login'` or `'logout'`) 
 - `minute` (a nonnegative integer). Events are in nondecreasing time order; ties are allowed. For any one user, logins and logouts alternate. No logout occurs without a matching earlier login.
 
-## Sample Input
+## Expected behavior
+
+Return a dictionary mapping each username with **at least one completed session** to their total completed active minutes. A session lasts `logout minute - login minute`; add multiple sessions by the same user. Ignore an unmatched final login. A session lasting zero minutes still counts. Return an empty dictionary if no sessions have completed.
+
+### Input
 
 ```python
 [
@@ -41,10 +45,14 @@ An app stores a stream of login and logout events. Multiple people can be logged
     }
 ]
 ```
+### Output
 
-## Expected behavior
-
-Return a dictionary mapping each username with **at least one completed session** to their total completed active minutes. A session lasts `logout minute - login minute`; add multiple sessions by the same user. Ignore an unmatched final login. A session lasting zero minutes still counts. Return an empty dictionary if no sessions have completed.
+```python
+{
+    'ava': 13,
+    'leo': 5
+}
+```
 
 ## Your task
 
