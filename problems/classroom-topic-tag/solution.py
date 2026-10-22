@@ -1,3 +1,3 @@
 def solution(word):
     # Write your code here.
-    pass
+    return "#" + "".join([w.title() for w in word.split()])
