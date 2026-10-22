@@ -22,14 +22,41 @@ Edit [`solution.py`](solution.py). Keep the function name `solution` and its par
 
 ```python
 def solution(readings):
-    # Write your code here.
+    lowest = 0
+    for reading in readings:
+        if reading < lowest:
+            lowest = reading
+    return lowest
 ```
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution([19, 23, 21])  # 19
-solution([-2, 4, 0])  # -2
+solution([19, 23, 21])
+```
+
+**Output**
+
+```python
+9
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution([-2, 4, 0])
+```
+
+**Output**
+
+```python
+2
 ```
 
 **Debugging challenge:** the starter code has an intentional error. Find and fix it.
