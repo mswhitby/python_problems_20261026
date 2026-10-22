@@ -186,7 +186,11 @@ def main():
     record={"version":2,"author":author,"run_id":order[0],"run_attempt":order[1],"head_sha":sha,"scores":scores}
     previous[number]=(order,author,record,current[3] if current else None)
     users=scores_by_author(prs,previous)
-    body=comment_body(scores,users.get(author,{}),details.read_text(),record)
+    display_history=dict(users.get(author,{}))
+    for slug,value in scores.items():
+        if slug not in display_history or order>=display_history[slug][0]:
+            display_history[slug]=(order,value)
+    body=comment_body(scores,display_history,details.read_text(),record)
     if current and current[3]:api("PATCH",f"/issues/comments/{current[3]}",{"body":body})
     else:api("POST",f"/issues/{number}/comments",{"body":body})
     print("Posted cumulative feedback for PR",number)
