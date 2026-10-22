@@ -10,7 +10,7 @@ A game designer needs the volume of a cube-shaped obstacle. The existing Python 
 
 ## Parameters
 
-`a` is an integer representing the length of a cube's edge. Negative inputs are included as arithmetic tests.
+`a` is an integer representing the length of a cube's edge. Edge lengths are nonnegative because physical cubes cannot have negative dimensions.
 
 ## Expected behavior
 
@@ -27,9 +27,32 @@ def solution(a):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution(4)  # 64
-solution(-3)  # -27
+solution(4)
+```
+
+**Output**
+
+```python
+4
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution(0)
+```
+
+**Output**
+
+```python
+
 ```
 
 **Debugging challenge:** the starter code has an intentional error. Find and fix it.
