@@ -10,7 +10,10 @@ An app stores a stream of login and logout events. Multiple people can be logged
 
 ## Parameters
 
-`events` is a list of dictionaries with `user` (a nonempty string), `action` (`'login'` or `'logout'`), and `minute` (a nonnegative integer). Events are in nondecreasing time order; ties are allowed. For any one user, logins and logouts alternate. No logout occurs without a matching earlier login.
+- `events` is a list of dictionaries with the keys `user`, `action`, and `minute`
+- `user` (a nonempty string), 
+- `action` (`'login'` or `'logout'`) 
+- `minute` (a nonnegative integer). Events are in nondecreasing time order; ties are allowed. For any one user, logins and logouts alternate. No logout occurs without a matching earlier login.
 
 ## Sample Input
 
@@ -35,7 +38,8 @@ An app stores a stream of login and logout events. Multiple people can be logged
         'user':'ava',
         'action':'logout',
         'minute':11
-}
+    }
+]
 ```
 
 ## Expected behavior
