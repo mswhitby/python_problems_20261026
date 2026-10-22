@@ -2,31 +2,39 @@
 
 **5 points**
 
-## Challenge
+**CS concepts:** boolean logic; conditions; rate limiting; parameters
 
-You are creating a bot that automatically posts comments to a social media thread. You want to make sure that your program does not overload the system, which would result in you getting muted or banned. Write a program that limits how many times your bot attempts a post. Your program will accept three paramaters:
+## Scenario
 
-- `passed`: a boolean value indicating if the prior attempt passed
-- `attempt`: a positive integer value indicating the number of this attempt
-- `limit`: a nonnegative integer value indicating the maximum number of attempts
+You are creating a bot that posts comments to a social-media thread. Too many requests can overload the site or get an account muted. Your code implements **rate limiting**, a rule that restricts how often software may attempt an action.
 
-Return `True` only when a previous request has not passed AND the number of this attempt is not above the maximum limit.
+## Parameters
+
+- `passed` (**boolean**): whether the **previous** attempt succeeded.
+- `attempt` (**positive integer**): the number of the attempt about to be made, beginning at 1.
+- `limit` (**nonnegative integer**): the highest permitted attempt number. Zero means no attempts are allowed.
+
+## Expected behavior
+
+Return `True` only when the previous attempt **did not pass** AND the current `attempt` is **at most** `limit`. The final permitted attempt is allowed; return `False` otherwise.
 
 ## Your task
 
-Open [`solution.py`](solution.py). Implement the existing function without renaming `solution` or changing the specified parameters.
+Edit [`solution.py`](solution.py). Keep the function name `solution` and its parameters unchanged.
 
 ```python
 def solution(passed, attempt, limit):
-    # Your code goes here.
+    # Write your code here.
 ```
 
 ## Examples
 
 ```python
-solution(True, 2, 3)  # False
-solution(True, 3, 3)  # False
 solution(False, 2, 3)  # True
+solution(False, 3, 3)  # True
+solution(False, 4, 3)  # False
+solution(True, 2, 3)  # False
+solution(False, 1, 0)  # False
 ```
 
-Return the requested value rather than printing it.
+Return the required value rather than printing it.

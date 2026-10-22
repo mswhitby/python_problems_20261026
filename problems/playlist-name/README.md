@@ -1,25 +1,35 @@
-# Name That Playlist
+# Mood-to-Music Label
 
 **5 points**
 
-## Challenge
+**CS concepts:** string methods; normalization; return values
 
-Return the given playlist mood followed by a space and `Mix`. Preserve the mood's spelling and capitalization.
+## Scenario
+
+A music app automatically names listening sessions. People sometimes type moods with extra spaces or inconsistent capitalization. Clean the input so every session title looks consistent.
+
+## Parameters
+
+`mood` is a string containing at least one letter after whitespace is removed. It may contain multiple words.
+
+## Expected behavior
+
+Remove outer whitespace, capitalize the first letter of every word, and append ` Session`. Return the resulting string.
 
 ## Your task
 
-Open [`solution.py`](solution.py). Implement the existing function without renaming `solution` or changing the specified parameters.
+Edit [`solution.py`](solution.py). Keep the function name `solution` and its parameters unchanged.
 
 ```python
 def solution(mood):
-    # Your code goes here.
+    # Write your code here.
 ```
 
 ## Examples
 
 ```python
-solution('Focus')  # 'Focus Mix'
-solution('Late Night')  # 'Late Night Mix'
+solution('  rainy day  ')  # 'Rainy Day Session'
+solution('CODING')  # 'Coding Session'
 ```
 
-Return the requested value rather than printing it.
+Return the required value rather than printing it.

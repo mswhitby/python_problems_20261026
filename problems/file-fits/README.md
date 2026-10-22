@@ -1,25 +1,35 @@
-# Will the Next File Fit?
+# Upload Space Gatekeeper
 
 **5 points**
 
-## Challenge
+**CS concepts:** comparison operators; arithmetic; boundary values
 
-A storage drive has `capacity` megabytes, with `used` already occupied. Return `True` if a new file of `size` megabytes fits, including when it fills the remaining space exactly. Inputs are nonnegative whole numbers with `used <= capacity`.
+## Scenario
+
+A student is saving a project backup to a storage drive. Before transferring the file, the application checks available space to avoid a failed upload.
+
+## Parameters
+
+`capacity`, `used`, and `size` are nonnegative integers measured in megabytes. `used` never exceeds `capacity`.
+
+## Expected behavior
+
+Return `True` if the file fits without exceeding the drive's capacity, or `False` otherwise. Filling the last available megabyte is allowed.
 
 ## Your task
 
-Open [`solution.py`](solution.py). Implement the existing function without renaming `solution` or changing the specified parameters.
+Edit [`solution.py`](solution.py). Keep the function name `solution` and its parameters unchanged.
 
 ```python
 def solution(capacity, used, size):
-    # Your code goes here.
+    # Write your code here.
 ```
 
 ## Examples
 
 ```python
-solution(100, 70, 30)  # True
-solution(100, 70, 31)  # False
+solution(256, 240, 16)  # True
+solution(256, 240, 20)  # False
 ```
 
-Return the requested value rather than printing it.
+Return the required value rather than printing it.

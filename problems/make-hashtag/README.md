@@ -1,25 +1,35 @@
-# Make It a Hashtag
+# Classroom Topic Tag
 
 **5 points**
 
-## Challenge
+**CS concepts:** strings; whitespace; normalization
 
-Add exactly one `#` to the front of a nonempty word. The word does not already start with `#`. Do not alter its letters or capitalization.
+## Scenario
+
+A class discussion platform turns topics into searchable hashtags. Students might enter extra spaces and capital letters, so the app must standardize the text before posting.
+
+## Parameters
+
+`word` contains at least one letter, possibly multiple words and extra whitespace. It contains no punctuation.
+
+## Expected behavior
+
+Remove extra whitespace, make all letters lowercase, join words with underscores, and prefix the result with exactly one `#`.
 
 ## Your task
 
-Open [`solution.py`](solution.py). Implement the existing function without renaming `solution` or changing the specified parameters.
+Edit [`solution.py`](solution.py). Keep the function name `solution` and its parameters unchanged.
 
 ```python
 def solution(word):
-    # Your code goes here.
+    # Write your code here.
 ```
 
 ## Examples
 
 ```python
-solution('coding')  # '#coding'
-solution('PixelArt')  # '#PixelArt'
+solution('  Game   Design  ')  # '#game_design'
+solution('Robotics')  # '#robotics'
 ```
 
-Return the requested value rather than printing it.
+Return the required value rather than printing it.

@@ -1,27 +1,37 @@
-# Buggy Code: Cube It
+# 3D Object Volume Bug
 
 **5 points**
 
-## Challenge
+**CS concepts:** syntax errors; debugging; arithmetic
 
-Fix the syntax mistake in the starter file so the function returns the input integer cubed. It must also work for zero and negative numbers.
+## Scenario
+
+A game designer needs the volume of a cube-shaped obstacle. The existing Python code has a typo that prevents it from running. Identify the syntax error and repair it.
+
+## Parameters
+
+`a` is an integer representing the length of a cube's edge. Negative inputs are included as arithmetic tests.
+
+## Expected behavior
+
+Return `a` cubed: `a * a * a`. Keep the starter function and do not print the result.
 
 ## Your task
 
-Open [`solution.py`](solution.py). Implement the existing function without renaming `solution` or changing the specified parameters.
+Edit [`solution.py`](solution.py). Keep the function name `solution` and its parameters unchanged.
 
 ```python
 def solution(a):
-    # Your code goes here.
+    # Write your code here.
 ```
 
 ## Examples
 
 ```python
-solution(3)  # 27
-solution(-2)  # -8
+solution(4)  # 64
+solution(-3)  # -27
 ```
 
-**Debugging challenge:** the starter code contains an error. Fix it while keeping the function signature.
+**Debugging challenge:** the starter code has an intentional error. Find and fix it.
 
-Return the requested value rather than printing it.
+Return the required value rather than printing it.

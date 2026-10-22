@@ -1,25 +1,35 @@
-# Return the Next Number
+# Ticket Queue Counter
 
 **5 points**
 
-## Challenge
+**CS concepts:** parameters; integer arithmetic
 
-Return the integer immediately after `num`. Positive, negative, and zero inputs are possible.
+## Scenario
+
+An event kiosk assigns numbered tickets to visitors. After processing one ticket, the screen must display the number of the next ticket in line.
+
+## Parameters
+
+`num` is an integer. Tests may use negative numbers or zero.
+
+## Expected behavior
+
+Return the integer that comes immediately after `num`.
 
 ## Your task
 
-Open [`solution.py`](solution.py). Implement the existing function without renaming `solution` or changing the specified parameters.
+Edit [`solution.py`](solution.py). Keep the function name `solution` and its parameters unchanged.
 
 ```python
 def solution(num):
-    # Your code goes here.
+    # Write your code here.
 ```
 
 ## Examples
 
 ```python
-solution(9)  # 10
-solution(-3)  # -2
+solution(49)  # 50
+solution(-1)  # 0
 ```
 
-Return the requested value rather than printing it.
+Return the required value rather than printing it.

@@ -1,27 +1,37 @@
-# Fix the Lowest Reading
+# Thermostat Sensor Debugger
 
 **5 points**
 
-## Challenge
+**CS concepts:** loops; comparisons; initialization; debugging
 
-Fix the starter code so it returns the smallest integer in a nonempty list of temperature readings. The list can contain only positive values, only negative values, or a mixture.
+## Scenario
+
+A classroom thermostat collects temperature readings. The existing code starts its lowest value at zero, causing incorrect results when all temperatures are positive. Find and repair the logic error.
+
+## Parameters
+
+`readings` is a nonempty list of integers, which may be positive, negative, or zero.
+
+## Expected behavior
+
+Return the smallest integer in the list. Keep the provided function signature.
 
 ## Your task
 
-Open [`solution.py`](solution.py). Implement the existing function without renaming `solution` or changing the specified parameters.
+Edit [`solution.py`](solution.py). Keep the function name `solution` and its parameters unchanged.
 
 ```python
 def solution(readings):
-    # Your code goes here.
+    # Write your code here.
 ```
 
 ## Examples
 
 ```python
-solution([12, 8, 15])  # 8
-solution([-4, 2, -9])  # -9
+solution([19, 23, 21])  # 19
+solution([-2, 4, 0])  # -2
 ```
 
-**Debugging challenge:** the starter code contains an error. Fix it while keeping the function signature.
+**Debugging challenge:** the starter code has an intentional error. Find and fix it.
 
-Return the requested value rather than printing it.
+Return the required value rather than printing it.

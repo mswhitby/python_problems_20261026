@@ -1,25 +1,35 @@
-# Rectangle Perimeter
+# Fence Material Estimator
 
 **5 points**
 
-## Challenge
+**CS concepts:** arithmetic expressions; measurements
 
-Calculate the total distance around a rectangle whose positive side lengths are `length` and `width`. Return the perimeter.
+## Scenario
+
+A gardening club wants to install edging around a rectangular bed. Before buying materials, students must calculate the total distance around its four sides.
+
+## Parameters
+
+`length` and `width` are positive integers measured in the same unit.
+
+## Expected behavior
+
+Return the perimeter as an integer. Remember to include both lengths and both widths.
 
 ## Your task
 
-Open [`solution.py`](solution.py). Implement the existing function without renaming `solution` or changing the specified parameters.
+Edit [`solution.py`](solution.py). Keep the function name `solution` and its parameters unchanged.
 
 ```python
 def solution(length, width):
-    # Your code goes here.
+    # Write your code here.
 ```
 
 ## Examples
 
 ```python
-solution(6, 7)  # 26
-solution(20, 10)  # 60
+solution(9, 4)  # 26
+solution(2, 13)  # 30
 ```
 
-Return the requested value rather than printing it.
+Return the required value rather than printing it.

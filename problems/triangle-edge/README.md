@@ -1,25 +1,35 @@
-# Maximum Edge of a Triangle
+# Triangle Frame Safety Check
 
 **5 points**
 
-## Challenge
+**CS concepts:** triangle inequality; upper bounds
 
-Given two positive integer side lengths, find the greatest integer length the third side of a triangle could have. The third side must be strictly shorter than the sum of the first two.
+## Scenario
+
+A robotics team is building a triangular brace with two fixed bars. They need to know the longest integer length the third bar could have while still forming a triangle.
+
+## Parameters
+
+`side1` and `side2` are positive integers measured in centimeters.
+
+## Expected behavior
+
+Return the largest possible positive integer length for the third side. No side can equal or exceed the sum of the other two.
 
 ## Your task
 
-Open [`solution.py`](solution.py). Implement the existing function without renaming `solution` or changing the specified parameters.
+Edit [`solution.py`](solution.py). Keep the function name `solution` and its parameters unchanged.
 
 ```python
 def solution(side1, side2):
-    # Your code goes here.
+    # Write your code here.
 ```
 
 ## Examples
 
 ```python
-solution(8, 10)  # 17
-solution(5, 7)  # 11
+solution(6, 11)  # 16
+solution(3, 3)  # 5
 ```
 
-Return the requested value rather than printing it.
+Return the required value rather than printing it.

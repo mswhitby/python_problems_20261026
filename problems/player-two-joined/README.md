@@ -1,25 +1,35 @@
-# Player Two Has Joined
+# Co-op Lobby Notification
 
 **5 points**
 
-## Challenge
+**CS concepts:** string formatting; exact output
 
-Return a game notification by adding the exact text ` has joined!` after the supplied username. Preserve its capitalization.
+## Scenario
+
+A multiplayer game displays a notification when another player joins. The username should appear exactly as entered so friends can recognize one another.
+
+## Parameters
+
+`username` is a nonempty string containing letters, digits, hyphens, or underscores.
+
+## Expected behavior
+
+Return the exact text `Player NAME entered the lobby.` with NAME replaced by the supplied username. Include the final period.
 
 ## Your task
 
-Open [`solution.py`](solution.py). Implement the existing function without renaming `solution` or changing the specified parameters.
+Edit [`solution.py`](solution.py). Keep the function name `solution` and its parameters unchanged.
 
 ```python
 def solution(username):
-    # Your code goes here.
+    # Write your code here.
 ```
 
 ## Examples
 
 ```python
-solution('Nova')  # 'Nova has joined!'
-solution('Pixel_7')  # 'Pixel_7 has joined!'
+solution('fox-9')  # 'Player fox-9 entered the lobby.'
+solution('NeoCoder')  # 'Player NeoCoder entered the lobby.'
 ```
 
-Return the requested value rather than printing it.
+Return the required value rather than printing it.
