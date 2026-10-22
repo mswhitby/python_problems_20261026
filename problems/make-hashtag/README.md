@@ -1,6 +1,6 @@
 # Classroom Topic Tag
 
-**5 points**
+**10 points**
 
 **CS concepts:** strings; whitespace; normalization
 
@@ -14,7 +14,7 @@ A class discussion platform turns topics into searchable hashtags. Students migh
 
 ## Expected behavior
 
-Remove extra whitespace, make all letters lowercase, join words with underscores, and prefix the result with exactly one `#`.
+Remove extra whitespace. Capitalize the first letter of each word and make all remaining letters lowercase. Join the words without spaces, and prefix the result with `#` to create a **PascalCase hashtag**.
 
 ## Your task
 
@@ -27,9 +27,32 @@ def solution(word):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution('  Game   Design  ')  # '#game_design'
-solution('Robotics')  # '#robotics'
+solution('  Game   Design  ')
+```
+
+**Output**
+
+```python
+#GameDesign'
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution('Robotics')
+```
+
+**Output**
+
+```python
+#Robotics'
 ```
 
 Return the required value rather than printing it.

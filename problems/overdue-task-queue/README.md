@@ -10,7 +10,10 @@ A class project board reminds students which unfinished tasks require attention.
 
 ## Parameters
 
-- `tasks`: a list of dictionaries containing `title` (a string), `due` (an integer day number), and `complete` (a boolean).
+- `tasks`: a list of dictionaries describing the assignments.
+  - `title`: a string naming the assignment.
+  - `due`: an integer day number for the deadline.
+  - `complete`: a boolean indicating whether it is finished.
 - `today`: an integer day number on the same scale as `due`.
 
 ## Expected behavior
@@ -28,9 +31,39 @@ def solution(tasks, today):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution([{'title': 'Storyboard', 'due': 10, 'complete': False}, {'title': 'Sprites', 'due': 11, 'complete': False}, {'title': 'Menu', 'due': 8, 'complete': True}], 11)  # ['Storyboard']
-solution([], 12)  # []
+solution(
+    [
+        {'title': 'Storyboard', 'due': 10, 'complete': False},
+        {'title': 'Sprites', 'due': 11, 'complete': False},
+        {'title': 'Menu', 'due': 8, 'complete': True}
+    ],
+    11
+)
+```
+
+**Output**
+
+```python
+'Storyboard']
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution([], 12)
+```
+
+**Output**
+
+```python
+]
 ```
 
 Return the required value rather than printing it.

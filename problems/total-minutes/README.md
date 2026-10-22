@@ -23,15 +23,54 @@ Open [`solution.py`](solution.py). Complete the function named `solution` withou
 
 ```python
 def solution(tasks, include_paused=True):
-    # Write your code here.
+    total = 0
+    for task in tasks:
+        total += task["minutes"]
+    return total
 ```
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution([{'minutes': 14, 'paused': False}, {'minutes': 7, 'paused': True}], False)  # 14
-solution([{'minutes': 14, 'paused': False}, {'minutes': 7, 'paused': True}])  # 21
-solution([], False)  # 0
+solution([{'minutes': 14, 'paused': False}, {'minutes': 7, 'paused': True}], False)
+```
+
+**Output**
+
+```python
+4
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution([{'minutes': 14, 'paused': False}, {'minutes': 7, 'paused': True}])
+```
+
+**Output**
+
+```python
+1
+```
+
+### Example 3
+
+**Input**
+
+```python
+solution([], False)
+```
+
+**Output**
+
+```python
+
 ```
 
 **Debugging challenge:** the starter code has an intentional mistake. Find and repair it.

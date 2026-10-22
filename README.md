@@ -2,7 +2,7 @@
 
 **[View the Challenge Leaderboard](LEADERBOARD.md)**
 
-Pick challenges from any difficulty level. There are **250 possible points** across 24 challenges, and you may earn more than 100 points.
+Pick challenges from any difficulty level. There are **255 possible points** across 24 challenges, and you may earn more than 100 points.
 
 ## Submission instructions
 
@@ -30,8 +30,8 @@ Your leaderboard points reflect coding-challenge progress, not a classroom grade
 | [Bot Spammer](problems/retry-or-stop/) | 5 |
 | [Upload Space Gatekeeper](problems/file-fits/) | 5 |
 | [Triangle Frame Safety Check](problems/triangle-edge/) | 5 |
-| [Classroom Topic Tag](problems/make-hashtag/) | 5 |
 | **Easy** | **10 each** |
+| [Classroom Topic Tag](problems/make-hashtag/) | 10 |
 | [Focus Timer Debugger](problems/total-minutes/) | 10 |
 | [Classroom Charging Queue](problems/devices-charging/) | 10 |
 | [Installer Download Meter](problems/progress-bar/) | 10 |
@@ -48,7 +48,7 @@ Your leaderboard points reflect coding-challenge progress, not a classroom grade
 | [Robot Maze Navigator](problems/robot-maze-navigator/) | 25 |
 | [Login Session Audit](problems/login-session-audit/) | 25 |
 
-**24 challenges · 250 possible points**
+**24 challenges · 255 possible points**
 
 ## Resources
 

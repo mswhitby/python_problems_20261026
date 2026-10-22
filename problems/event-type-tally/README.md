@@ -22,14 +22,43 @@ Open [`solution.py`](solution.py). Complete the function named `solution` withou
 
 ```python
 def solution(events):
+    event_dict = {
+        'click': 0,
+        'view': 0,
+        'submit': 0,
+    }
     # Write your code here.
+    pass
 ```
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution(['CLICK', 'view', 'Click', 'submit'])  # {'click': 2, 'view': 1, 'submit': 1}
-solution([])  # {'click': 0, 'view': 0, 'submit': 0}
+solution(['CLICK', 'view', 'Click', 'submit'])
+```
+
+**Output**
+
+```python
+'click': 2, 'view': 1, 'submit': 1}
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution([])
+```
+
+**Output**
+
+```python
+'click': 0, 'view': 0, 'submit': 0}
 ```
 
 Return the required value rather than printing it.

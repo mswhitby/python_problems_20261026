@@ -22,7 +22,7 @@ Edit [`solution.py`](solution.py). Keep the function name `solution` and its par
 
 ```python
 def solution(a):
-    # Write your code here.
+  retunr a ** 3
 ```
 
 ## Examples
