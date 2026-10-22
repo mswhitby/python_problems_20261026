@@ -19,7 +19,7 @@ if set(MANIFEST) != set(TESTS) or not all(TESTS.values()):
 def run():
     student = Path(sys.argv[1]).resolve()
     changed = subprocess.check_output(["git","-C",str(student),"diff","--name-only","HEAD^1","HEAD"],text=True).splitlines()
-    pattern = re.compile(r"^problems/([a-z0-9-]+)/solution\\.py$")
+    pattern = re.compile(r"^problems/([a-z0-9-]+)/solution\.py$")
     slugs = sorted({m.group(1) for file in changed if (m := pattern.match(file)) and m.group(1) in MANIFEST})
     if not slugs:
         print("No recognized challenge solutions changed")
