@@ -12,11 +12,11 @@ You are creating a bot that posts comments to a social-media thread. Too many re
 
 - `passed` (**boolean**): whether the **previous** attempt succeeded.
 - `attempt` (**positive integer**): the number of the attempt about to be made, beginning at 1.
-- `limit` (**nonnegative integer**): the highest permitted attempt number. Zero means no attempts are allowed.
+- `limit` (**nonnegative integer**): the highest permitted attempt number.
 
 ## Expected behavior
 
-Return `True` only when the previous attempt **did not pass** AND the current `attempt` is **at most** `limit`. The final permitted attempt is allowed; return `False` otherwise.
+Return `True` only when the previous attempt **did not pass** AND the **current attempt is not over the limit**. The final permitted attempt is allowed; return `False` otherwise.
 
 ## Your task
 
@@ -34,7 +34,6 @@ solution(False, 2, 3)  # True
 solution(False, 3, 3)  # True
 solution(False, 4, 3)  # False
 solution(True, 2, 3)  # False
-solution(False, 1, 0)  # False
 ```
 
 Return the required value rather than printing it.
