@@ -6,7 +6,7 @@
 
 ## Scenario
 
-In a research simulation, checkpoints have positive integer IDs. A checkpoint `n` is synchronized when `(2 ** n + 1)` is evenly divisible by `(2 * n + 1)`. This mathematical property is called the Curzon condition. Instead of testing just one number, scan an entire range of checkpoint IDs.
+In a research simulation, checkpoints have positive integer IDs. A checkpoint `n` is synchronized when `(2 ** n + 1)` is evenly divisible by `(2 * n + 1)`. This mathematical property is called the Curzon condition. You have been given the task of identifying all integers in a specified range that meet the Curzon condition.
 
 ## Parameters
 
