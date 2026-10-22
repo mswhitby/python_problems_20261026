@@ -42,7 +42,7 @@ solution([19, 23, 21])
 **Output**
 
 ```python
-9
+19
 ```
 
 ### Example 2
@@ -56,7 +56,7 @@ solution([-2, 4, 0])
 **Output**
 
 ```python
-2
+-2
 ```
 
 **Debugging challenge:** the starter code has an intentional error. Find and fix it.
