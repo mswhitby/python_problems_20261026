@@ -12,6 +12,32 @@ An app stores a stream of login and logout events. Multiple people can be logged
 
 `events` is a list of dictionaries with `user` (a nonempty string), `action` (`'login'` or `'logout'`), and `minute` (a nonnegative integer). Events are in nondecreasing time order; ties are allowed. For any one user, logins and logouts alternate. No logout occurs without a matching earlier login.
 
+## Sample Input
+
+```python
+[
+    {
+        'user':'ava',
+        'action':'login',
+        'minute':3
+    },
+    {
+        'user':'leo',
+        'action':'login',
+        'minute':4
+    },
+    {
+        'user':'leo',
+        'action':'logout',
+        'minute':9
+    },
+    {
+        'user':'ava',
+        'action':'logout',
+        'minute':11
+}
+```
+
 ## Expected behavior
 
 Return a dictionary mapping each username with **at least one completed session** to their total completed active minutes. A session lasts `logout minute - login minute`; add multiple sessions by the same user. Ignore an unmatched final login. A session lasting zero minutes still counts. Return an empty dictionary if no sessions have completed.
