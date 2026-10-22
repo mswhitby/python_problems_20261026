@@ -12,7 +12,30 @@ import zlib
 HERE = Path(__file__).resolve().parent
 MANIFEST = json.loads((HERE / "manifest.json").read_text())["challenges"]
 RAW = zlib.decompress(base64.urlsafe_b64decode((HERE / "cases.b64").read_text().strip()))
-TESTS = json.loads(RAW)
+ALIASES = {
+    "playlist-name": "mood-music-label",
+    "buggy-code": "cube-volume-debugger",
+    "lowest-reading": "thermostat-sensor-debugger",
+    "next-number": "ticket-queue-counter",
+    "player-two-joined": "co-op-lobby-notification",
+    "rectangle-perimeter": "fence-material-estimator",
+    "retry-or-stop": "bot-spammer",
+    "file-fits": "upload-space-check",
+    "triangle-edge": "triangle-frame-check",
+    "make-hashtag": "classroom-topic-tag",
+    "total-minutes": "focus-timer-debugger",
+    "devices-charging": "classroom-charging-queue",
+    "progress-bar": "installer-download-meter",
+    "search-suggestions": "command-palette-matcher",
+    "missing-page": "missing-library-badge",
+    "flip-boolean": "feature-switch-inverter",
+    "number-instructions": "lab-procedure-formatter",
+    "overdue-task-queue": "assignment-deadline-queue",
+    "event-type-tally": "app-event-type-tally",
+    "curzon-numbers": "beacon-checkpoint-scanner",
+    "join-final-separator": "screen-reader-announcement"
+}
+TESTS = {ALIASES.get(slug,slug): cases for slug,cases in json.loads(RAW).items()}
 if set(MANIFEST) != set(TESTS) or not all(TESTS.values()):
     raise SystemExit("Test case manifest is inconsistent")
 
