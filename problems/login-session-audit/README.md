@@ -17,7 +17,23 @@ An app stores a stream of login and logout events. Multiple people can be logged
 
 ## Expected behavior
 
-Return a dictionary mapping each username with **at least one completed session** to their total completed active minutes. A session lasts `logout minute - login minute`; add multiple sessions by the same user. Ignore an unmatched final login. A session lasting zero minutes still counts. Return an empty dictionary if no sessions have completed.
+Return a dictionary mapping each user with **at least one completed session** to their total completed active minutes. A session lasts `logout minute - login minute`; add multiple sessions by the same user. Ignore an unmatched final login. A session lasting zero minutes still counts. Return an empty dictionary if no sessions have completed.
+
+## Your task
+
+Open [`solution.py`](solution.py). Complete the function named `solution` without changing its name or parameters.
+
+```python
+def solution(events):
+    # Write your code here.
+```
+
+## Examples
+
+```python
+solution([{'user':'ava','action':'login','minute':3},{'user':'leo','action':'login','minute':4},{'user':'leo','action':'logout','minute':9},{'user':'ava','action':'logout','minute':11},{'user':'ava','action':'login','minute':12},{'user':'ava','action':'logout','minute':17}])  # {'ava': 13, 'leo': 5}
+solution([{'user':'sky','action':'login','minute':2}])  # {}
+```
 
 ### Input
 
@@ -52,22 +68,6 @@ Return a dictionary mapping each username with **at least one completed session*
     'ava': 13,
     'leo': 5
 }
-```
-
-## Your task
-
-Open [`solution.py`](solution.py). Complete the function named `solution` without changing its name or parameters.
-
-```python
-def solution(events):
-    # Write your code here.
-```
-
-## Examples
-
-```python
-solution([{'user':'ava','action':'login','minute':3},{'user':'leo','action':'login','minute':4},{'user':'leo','action':'logout','minute':9},{'user':'ava','action':'logout','minute':11},{'user':'ava','action':'login','minute':12},{'user':'ava','action':'logout','minute':17}])  # {'ava': 13, 'leo': 5}
-solution([{'user':'sky','action':'login','minute':2}])  # {}
 ```
 
 Return the required value rather than printing it.
