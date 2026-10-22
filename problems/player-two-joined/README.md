@@ -10,7 +10,7 @@ A multiplayer game displays a notification when another player joins. The userna
 
 ## Parameters
 
-`username` is a nonempty string containing letters, digits, hyphens, or underscores.
+- `username` is a nonempty string containing letters, digits, hyphens, or underscores.
 
 ## Expected behavior
 
@@ -27,9 +27,32 @@ def solution(username):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution('fox-9')  # 'Player fox-9 entered the lobby.'
-solution('NeoCoder')  # 'Player NeoCoder entered the lobby.'
+solution('fox-9')
+```
+
+**Output**
+
+```python
+'Player fox-9 entered the lobby.'
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution('NeoCoder')
+```
+
+**Output**
+
+```python
+'Player NeoCoder entered the lobby.'
 ```
 
 Return the required value rather than printing it.

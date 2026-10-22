@@ -10,7 +10,7 @@ A music app automatically names listening sessions. People sometimes type moods 
 
 ## Parameters
 
-`mood` is a string containing at least one letter after whitespace is removed. It may contain multiple words.
+- `mood` is a string containing at least one letter after whitespace is removed. It may contain multiple words.
 
 ## Expected behavior
 
@@ -27,9 +27,32 @@ def solution(mood):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution('  rainy day  ')  # 'Rainy Day Session'
-solution('CODING')  # 'Coding Session'
+solution('  rainy day  ')
+```
+
+**Output**
+
+```python
+'Rainy Day Session'
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution('CODING')
+```
+
+**Output**
+
+```python
+'Coding Session'
 ```
 
 Return the required value rather than printing it.

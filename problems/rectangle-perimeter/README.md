@@ -10,7 +10,7 @@ A gardening club wants to install edging around a rectangular bed. Before buying
 
 ## Parameters
 
-`length` and `width` are positive integers measured in the same unit.
+- `length` and `width` are positive integers measured in the same unit.
 
 ## Expected behavior
 
@@ -27,9 +27,32 @@ def solution(length, width):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution(9, 4)  # 26
-solution(2, 13)  # 30
+solution(9, 4)
+```
+
+**Output**
+
+```python
+26
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution(2, 13)
+```
+
+**Output**
+
+```python
+30
 ```
 
 Return the required value rather than printing it.

@@ -10,7 +10,7 @@ A student is saving a project backup to a storage drive. Before transferring the
 
 ## Parameters
 
-`capacity`, `used`, and `size` are nonnegative integers measured in megabytes. `used` never exceeds `capacity`.
+- `capacity`, `used`, and `size` are nonnegative integers measured in megabytes. `used` never exceeds `capacity`.
 
 ## Expected behavior
 
@@ -27,9 +27,32 @@ def solution(capacity, used, size):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution(256, 240, 16)  # True
-solution(256, 240, 20)  # False
+solution(256, 240, 16)
+```
+
+**Output**
+
+```python
+True
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution(256, 240, 20)
+```
+
+**Output**
+
+```python
+False
 ```
 
 Return the required value rather than printing it.

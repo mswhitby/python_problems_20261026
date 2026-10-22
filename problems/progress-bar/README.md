@@ -10,7 +10,7 @@ A software installer shows its progress in a text-only terminal. The meter has t
 
 ## Parameters
 
-`percent` is an integer from 0 to 100, inclusive, always in increments of 10.
+- `percent` is an integer from 0 to 100, inclusive, always in increments of 10.
 
 ## Expected behavior
 
@@ -27,10 +27,46 @@ def solution(percent):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution(30)  # '|###.......| 30%'
-solution(0)  # '|..........| 0%'
-solution(100)  # '|##########| 100%'
+solution(30)
+```
+
+**Output**
+
+```python
+'|###.......| 30%'
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution(0)
+```
+
+**Output**
+
+```python
+'|..........| 0%'
+```
+
+### Example 3
+
+**Input**
+
+```python
+solution(100)
+```
+
+**Output**
+
+```python
+'|##########| 100%'
 ```
 
 Return the required value rather than printing it.

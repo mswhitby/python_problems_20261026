@@ -10,7 +10,7 @@ A robotics team is building a triangular brace with two fixed bars. They need to
 
 ## Parameters
 
-`side1` and `side2` are positive integers measured in centimeters.
+- `side1` and `side2` are positive integers measured in centimeters.
 
 ## Expected behavior
 
@@ -27,9 +27,32 @@ def solution(side1, side2):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution(6, 11)  # 16
-solution(3, 3)  # 5
+solution(6, 11)
+```
+
+**Output**
+
+```python
+16
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution(3, 3)
+```
+
+**Output**
+
+```python
+5
 ```
 
 Return the required value rather than printing it.

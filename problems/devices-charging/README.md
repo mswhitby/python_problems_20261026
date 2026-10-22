@@ -10,7 +10,7 @@ Before a robotics lab, the teacher checks the classroom charging cart. Some devi
 
 ## Parameters
 
-`devices` is a list of dictionaries with two keys: `name` (a string) and `battery` (an integer percentage from 0 to 100). Device names are unique.
+- `devices` is a list of dictionaries with two keys: `name` (a string) and `battery` (an integer percentage from 0 to 100). Device names are unique.
 
 ## Expected behavior
 
@@ -27,9 +27,38 @@ def solution(devices):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution([{'name': 'Tablet A', 'battery': 25}, {'name': 'Robot B', 'battery': 83}, {'name': 'Tablet C', 'battery': 4}])  # ['Tablet A', 'Tablet C']
-solution([])  # []
+solution(
+    [
+        {'name': 'Tablet A', 'battery': 25},
+        {'name': 'Robot B', 'battery': 83},
+        {'name': 'Tablet C', 'battery': 4}
+    ]
+)
+```
+
+**Output**
+
+```python
+['Tablet A', 'Tablet C']
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution([])
+```
+
+**Output**
+
+```python
+[]
 ```
 
 Return the required value rather than printing it.

@@ -10,7 +10,7 @@ An event kiosk assigns numbered tickets to visitors. After processing one ticket
 
 ## Parameters
 
-`num` is an integer. Tests may use negative numbers or zero.
+- `num` is an integer. Tests may use negative numbers or zero.
 
 ## Expected behavior
 
@@ -27,9 +27,32 @@ def solution(num):
 
 ## Examples
 
+### Example 1
+
+**Input**
+
 ```python
-solution(49)  # 50
-solution(-1)  # 0
+solution(49)
+```
+
+**Output**
+
+```python
+50
+```
+
+### Example 2
+
+**Input**
+
+```python
+solution(-1)
+```
+
+**Output**
+
+```python
+0
 ```
 
 Return the required value rather than printing it.
