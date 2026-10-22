@@ -1,3 +1,2 @@
 def solution(num):
-    # Write your code here.
-    pass
+    return num + 1
