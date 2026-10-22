@@ -1,0 +1,39 @@
+name: Post Python Grades and Leaderboard
+
+on:
+  workflow_run:
+    workflows: ["Grade Python Pull Request"]
+    types: [completed]
+
+concurrency:
+  group: python-cumulative-grades
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  publish:
+    if: ${{ github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out trusted publisher from main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Download unprivileged feedback artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: python-grading-feedback
+          path: grade-download
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Post cumulative feedback and update leaderboard
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/publish_grades.py

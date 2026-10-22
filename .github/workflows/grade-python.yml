@@ -1,0 +1,46 @@
+name: Grade Python Pull Request
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Check out student pull request
+        uses: actions/checkout@v4
+        with:
+          ref: refs/pull/${{ github.event.pull_request.number }}/merge
+          path: student
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Check out trusted test runner
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository }}
+          ref: tests
+          path: grader
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Grade changed challenge solutions
+        env:
+          GRADE_PR_NUMBER: ${{ github.event.pull_request.number }}
+          GRADE_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: python grader/grader/run_tests.py student
+      - name: Upload grader feedback
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: python-grading-feedback
+          path: grading-feedback/
+          if-no-files-found: ignore
+          retention-days: 30

@@ -1,0 +1,29 @@
+{
+  "week": "2026-10-26",
+  "challenges": {
+    "playlist-name": 5,
+    "buggy-code": 5,
+    "lowest-reading": 5,
+    "next-number": 5,
+    "player-two-joined": 5,
+    "rectangle-perimeter": 5,
+    "retry-or-stop": 5,
+    "file-fits": 5,
+    "triangle-edge": 5,
+    "make-hashtag": 10,
+    "total-minutes": 10,
+    "devices-charging": 10,
+    "progress-bar": 10,
+    "search-suggestions": 10,
+    "missing-page": 10,
+    "flip-boolean": 10,
+    "number-instructions": 10,
+    "overdue-task-queue": 10,
+    "high-score-streak": 10,
+    "event-type-tally": 10,
+    "curzon-numbers": 25,
+    "join-final-separator": 25,
+    "robot-maze-navigator": 25,
+    "login-session-audit": 25
+  }
+}
