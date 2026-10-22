@@ -16,6 +16,8 @@ Developers record simple app interactions to learn how people navigate their sof
 
 Return a dictionary with **exactly** the keys `click`, `view`, and `submit`. Count the occurrences of each event without regard to case. Include an event key with a count of 0 if it never occurs.
 
+**Need a refresher?** [Review the optional skills guide](skills.md) for examples, fundamental explanations, and hints.
+
 ## Your task
 
 Open [`solution.py`](solution.py). Complete the function named `solution` without changing its name or parameters.

@@ -19,6 +19,8 @@ Both endpoints are included, and `1 <= start <= end <= 200`.
 
 Return an ascending **list of all checkpoint IDs** from `start` to `end` that meet the condition. A checkpoint qualifies when the division remainder is zero. Return an empty list if none qualify.
 
+**Need a refresher?** [Review the optional skills guide](skills.md) for examples, fundamental explanations, and hints.
+
 ## Your task
 
 Open [`solution.py`](solution.py). Complete the function named `solution` without changing its name or parameters.

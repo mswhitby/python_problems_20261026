@@ -16,6 +16,8 @@ A music app automatically names listening sessions. People sometimes type moods 
 
 Remove outer whitespace, capitalize the first letter of every word, and append ` Session`. Return the resulting string.
 
+**Need a refresher?** [Review the optional skills guide](skills.md) for examples, fundamental explanations, and hints.
+
 ## Your task
 
 Edit [`solution.py`](solution.py). Keep the function name `solution` and its parameters unchanged.

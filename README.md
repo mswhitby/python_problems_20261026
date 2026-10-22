@@ -21,32 +21,32 @@ Your leaderboard points reflect coding-challenge progress, not a classroom grade
 | Challenge | Points |
 |---|---:|
 | **Very Easy** | **5 each** |
-| [Mood-to-Music Label](problems/mood-music-label/) | 5 |
 | [3D Object Volume Bug](problems/cube-volume-debugger/) | 5 |
-| [Thermostat Sensor Debugger](problems/thermostat-sensor-debugger/) | 5 |
-| [Ticket Queue Counter](problems/ticket-queue-counter/) | 5 |
+| [Bot Spammer](problems/bot-spammer/) | 5 |
 | [Co-op Lobby Notification](problems/co-op-lobby-notification/) | 5 |
 | [Fence Material Estimator](problems/fence-material-estimator/) | 5 |
-| [Bot Spammer](problems/bot-spammer/) | 5 |
-| [Upload Space Gatekeeper](problems/upload-space-check/) | 5 |
+| [Mood-to-Music Label](problems/mood-music-label/) | 5 |
+| [Thermostat Sensor Debugger](problems/thermostat-sensor-debugger/) | 5 |
+| [Ticket Queue Counter](problems/ticket-queue-counter/) | 5 |
 | [Triangle Frame Safety Check](problems/triangle-frame-check/) | 5 |
+| [Upload Space Gatekeeper](problems/upload-space-check/) | 5 |
 | **Easy** | **10 each** |
-| [Classroom Topic Tag](problems/classroom-topic-tag/) | 10 |
-| [Focus Timer Debugger](problems/focus-timer-debugger/) | 10 |
-| [Classroom Charging Queue](problems/classroom-charging-queue/) | 10 |
-| [Installer Download Meter](problems/installer-download-meter/) | 10 |
-| [Command Palette Matcher](problems/command-palette-matcher/) | 10 |
-| [Missing Library Badge](problems/missing-library-badge/) | 10 |
-| [Feature Switch Inverter](problems/feature-switch-inverter/) | 10 |
-| [Lab Procedure Formatter](problems/lab-procedure-formatter/) | 10 |
-| [Assignment Deadline Queue](problems/assignment-deadline-queue/) | 10 |
-| [High Score Streak](problems/high-score-streak/) | 10 |
 | [App Event Type Tally](problems/app-event-type-tally/) | 10 |
+| [Assignment Deadline Queue](problems/assignment-deadline-queue/) | 10 |
+| [Classroom Charging Queue](problems/classroom-charging-queue/) | 10 |
+| [Classroom Topic Tag](problems/classroom-topic-tag/) | 10 |
+| [Command Palette Matcher](problems/command-palette-matcher/) | 10 |
+| [Feature Switch Inverter](problems/feature-switch-inverter/) | 10 |
+| [Focus Timer Debugger](problems/focus-timer-debugger/) | 10 |
+| [High Score Streak](problems/high-score-streak/) | 10 |
+| [Installer Download Meter](problems/installer-download-meter/) | 10 |
+| [Lab Procedure Formatter](problems/lab-procedure-formatter/) | 10 |
+| [Missing Library Badge](problems/missing-library-badge/) | 10 |
 | **Hard** | **25 each** |
 | [Beacon Checkpoint Scanner](problems/beacon-checkpoint-scanner/) | 25 |
-| [Screen Reader Announcement Composer](problems/screen-reader-announcement/) | 25 |
-| [Robot Maze Navigator](problems/robot-maze-navigator/) | 25 |
 | [Login Session Audit](problems/login-session-audit/) | 25 |
+| [Robot Maze Navigator](problems/robot-maze-navigator/) | 25 |
+| [Screen Reader Announcement Composer](problems/screen-reader-announcement/) | 25 |
 
 **24 challenges · 255 possible points**
 
