@@ -19,7 +19,7 @@ def solution(num):
 
 ```python
 solution(5)  # True
-solution(10)  # True
+solution(9)  # True
 solution(4)  # False
 ```
 
