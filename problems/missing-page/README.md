@@ -10,7 +10,7 @@ A school gives visitors badges numbered consecutively from 1. During inventory, 
 
 ## Parameters
 
-`total` is a positive integer for the final badge number. `pages` contains each number from 1 through `total` exactly once except for one missing number. The numbers may appear in any order.
+`total` is a positive integer for the final badge number. `badges` contains each number from 1 through `total` exactly once except for one missing number. The numbers may appear in any order.
 
 ## Expected behavior
 
@@ -21,7 +21,7 @@ Return the missing badge number as an integer. For a single-badge collection, th
 Open [`solution.py`](solution.py). Complete the function named `solution` without changing its name or parameters.
 
 ```python
-def solution(pages, total):
+def solution(badges, total):
     # Write your code here.
 ```
 
